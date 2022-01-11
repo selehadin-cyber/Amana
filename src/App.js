@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         
         <Routes>
-        <Route path='/' exact element={<ImageSlider slides={SliderData}/>} />
+        <Route path='/Amana' exact element={<ImageSlider slides={SliderData}/>} />
         </Routes>
 
       </Router>
