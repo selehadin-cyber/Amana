@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Amana/static/css/main.a732803a.css",
+    "main.js": "/Amana/static/js/main.ca8ca3ee.js",
+    "index.html": "/Amana/index.html",
+    "main.a732803a.css.map": "/Amana/static/css/main.a732803a.css.map",
+    "main.ca8ca3ee.js.map": "/Amana/static/js/main.ca8ca3ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a732803a.css",
+    "static/js/main.ca8ca3ee.js"
+  ]
+}
