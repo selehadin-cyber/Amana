@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Amana/static/css/main.a732803a.css",
-    "main.js": "/Amana/static/js/main.40ee80ef.js",
+    "main.css": "/Amana/static/css/main.b2467ae9.css",
+    "main.js": "/Amana/static/js/main.2283ea00.js",
     "index.html": "/Amana/index.html",
-    "main.a732803a.css.map": "/Amana/static/css/main.a732803a.css.map",
-    "main.40ee80ef.js.map": "/Amana/static/js/main.40ee80ef.js.map"
+    "main.b2467ae9.css.map": "/Amana/static/css/main.b2467ae9.css.map",
+    "main.2283ea00.js.map": "/Amana/static/js/main.2283ea00.js.map"
   },
   "entrypoints": [
-    "static/css/main.a732803a.css",
-    "static/js/main.40ee80ef.js"
+    "static/css/main.b2467ae9.css",
+    "static/js/main.2283ea00.js"
   ]
 }
