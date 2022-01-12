@@ -55,9 +55,9 @@ function Navbar() {
                         </Link>
                         <div className="submenu">
                             <ul>
-                                <li>orphan support</li>
-                                <li>quran memorization</li>
-                                <li>mosquees</li>
+                                <li><a href="/galeri#or-su">orphan support</a></li>
+                                <li><a href="/galeri#qu-me">quran memorization</a></li>
+                                <li><a href="/galeri#mo">mosquees</a></li>
                             </ul>
                         </div>
                     </li>
