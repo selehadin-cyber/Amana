@@ -62,7 +62,7 @@
     padding: 0.5rem 1rem;
     height: 50px;
     font-family: 'Arimo', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
   }
   
   .nav-links:hover {
@@ -75,6 +75,7 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+    top: 0;
   }
   
   .fa-bars {

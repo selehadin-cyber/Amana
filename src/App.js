@@ -3,6 +3,8 @@ import './App.css';
 import { SliderData } from "./components/ImageData";
 import { ImageSlider } from "./components/ImageSlider";
 import Navbar from './components/Navbar';
+import Aboutus from "./pages/Aboutus";
+import Galeri from "./pages/Galeri";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         
         <Routes>
         <Route path='/Amana' exact element={<ImageSlider slides={SliderData}/>} />
+        <Route path='/galeri' element={<Galeri />} />
+        <Route path='/aboutus' element={<Aboutus />} />
         </Routes>
 
       </Router>
