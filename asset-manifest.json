@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Amana/static/css/main.f4a54178.css",
-    "main.js": "/Amana/static/js/main.da187ea2.js",
+    "main.css": "/Amana/static/css/main.4c8c68b8.css",
+    "main.js": "/Amana/static/js/main.a4cef97f.js",
+    "static/media/DSC_0002.JPG": "/Amana/static/media/DSC_0002.73d190320fb73af599d7.JPG",
     "index.html": "/Amana/index.html",
-    "main.f4a54178.css.map": "/Amana/static/css/main.f4a54178.css.map",
-    "main.da187ea2.js.map": "/Amana/static/js/main.da187ea2.js.map"
+    "main.4c8c68b8.css.map": "/Amana/static/css/main.4c8c68b8.css.map",
+    "main.a4cef97f.js.map": "/Amana/static/js/main.a4cef97f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4a54178.css",
-    "static/js/main.da187ea2.js"
+    "static/css/main.4c8c68b8.css",
+    "static/js/main.a4cef97f.js"
   ]
 }
