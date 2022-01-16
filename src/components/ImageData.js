@@ -2,18 +2,18 @@ export const SliderData = [
     
     {
       image:
-      require('../pictures/DSC_0002.JPG')
+      require('../pictures/mo3.jpg')
     },
     {
       image:
-      require('../pictures/DSC_0002.JPG')
+      require('../pictures/iftar1.JPG')
     },
     {
       image:
-      require('../pictures/DSC_0002.JPG')
+      require('../pictures/kurban1.jpg')
     },
     {
       image:
-      require('../pictures/DSC_0002.JPG')
+      require('../pictures/mo10.JPG')
     }
   ];
