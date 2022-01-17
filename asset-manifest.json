@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amana/static/css/main.e11cd1b9.css",
-    "main.js": "/Amana/static/js/main.859e6d60.js",
+    "main.css": "/Amana/static/css/main.16b7cd49.css",
+    "main.js": "/Amana/static/js/main.bc64213b.js",
     "static/media/iftar6.JPG": "/Amana/static/media/iftar6.268089c399fd9789e2da.JPG",
     "static/media/kurban1.jpg": "/Amana/static/media/kurban1.6952f8b0c3084b631cad.jpg",
     "static/media/kurban4.JPG": "/Amana/static/media/kurban4.000511bea105fd4d2c67.JPG",
@@ -20,11 +20,11 @@
     "static/media/mo1.jpg": "/Amana/static/media/mo1.50d7e33d0892ae7a7435.jpg",
     "static/media/mo4.jpg": "/Amana/static/media/mo4.145308822f4186d2e563.jpg",
     "index.html": "/Amana/index.html",
-    "main.e11cd1b9.css.map": "/Amana/static/css/main.e11cd1b9.css.map",
-    "main.859e6d60.js.map": "/Amana/static/js/main.859e6d60.js.map"
+    "main.16b7cd49.css.map": "/Amana/static/css/main.16b7cd49.css.map",
+    "main.bc64213b.js.map": "/Amana/static/js/main.bc64213b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e11cd1b9.css",
-    "static/js/main.859e6d60.js"
+    "static/css/main.16b7cd49.css",
+    "static/js/main.bc64213b.js"
   ]
 }
