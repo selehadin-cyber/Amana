@@ -58,6 +58,9 @@ function Navbar() {
                                 <li><a href="/Amana/galeri#or-su">orphan support</a></li>
                                 <li><a href="/Amana/galeri#qu-me">quran memorization</a></li>
                                 <li><a href="/Amana/galeri#mo">mosquees</a></li>
+                                <li><Link to="/Amana/galeri#or-su" className="nav-links" onClick={closeMobileMenu}>
+                            Gallery
+                        </Link></li>
                             </ul>
                         </div>
                     </li>
