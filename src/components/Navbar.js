@@ -40,7 +40,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/aboutus" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/Amana/aboutus" className="nav-links" onClick={closeMobileMenu}>
                             About us
                         </Link>
                     </li>
@@ -50,14 +50,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/galeri" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/Amana/galeri" className="nav-links" onClick={closeMobileMenu}>
                             Gallery
                         </Link>
                         <div className="submenu">
                             <ul>
-                                <li><a href="/galeri#or-su">orphan support</a></li>
-                                <li><a href="/galeri#qu-me">quran memorization</a></li>
-                                <li><a href="/galeri#mo">mosquees</a></li>
+                                <li><a href="/Amana/galeri#or-su">orphan support</a></li>
+                                <li><a href="/Amana/galeri#qu-me">quran memorization</a></li>
+                                <li><a href="/Amana/galeri#mo">mosquees</a></li>
                             </ul>
                         </div>
                     </li>
