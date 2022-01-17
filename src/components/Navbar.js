@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import { Link } from "react-router-dom"
+//import { Link } from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.css';
 import { Button } from './Button';
 
@@ -55,12 +56,24 @@ function Navbar() {
                         </Link>
                         <div className="submenu">
                             <ul>
-                                <li><a href="/Amana/galeri#or-su">orphan support</a></li>
-                                <li><a href="/Amana/galeri#qu-me">quran memorization</a></li>
-                                <li><a href="/Amana/galeri#mo">mosquees</a></li>
-                                <li><Link to="/Amana/galeri#or-su" className="nav-links" onClick={closeMobileMenu}>
-                            Gallery
+                                
+                                <li><Link to="/Amana/galeri#qu-me" className="nav-links" onClick={closeMobileMenu}>
+                                Iftar Programs
                         </Link></li>
+                                
+                                <li><Link to={{
+    pathname: "/Amana/galeri",
+    search: "",
+    hash: "#or-su",
+    state: { fromDashboard: true }
+  }} className="nav-links" onClick={closeMobileMenu}>
+                                Udhiya Programs
+                        </Link></li>
+                                
+                                <li><Link to="/Amana/galeri#mo" className="nav-links" onClick={closeMobileMenu}>
+                                Mosquees
+                        </Link></li>
+                                
                             </ul>
                         </div>
                     </li>

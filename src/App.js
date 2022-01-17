@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import { BrowserRouter as HashRouter, Route, Routes} from "react-router-dom"
 import './App.css';
 import { SliderData } from "./components/ImageData";
 import { ImageSlider } from "./components/ImageSlider";
@@ -9,7 +9,7 @@ import Galeri from "./pages/Galeri";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Navbar />
         
         <Routes>
@@ -18,7 +18,7 @@ function App() {
         <Route path='/Amana/aboutus' element={<Aboutus />} />
         </Routes>
 
-      </Router>
+      </HashRouter>
     </>
   );
 }
