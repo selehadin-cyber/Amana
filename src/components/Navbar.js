@@ -28,7 +28,7 @@ function Navbar() {
         
         <nav className="Navbar">
             <div className="navbar-container">
-                <Link to="/Amana" className="navbar-logo" onClick={closeMobileMenu}>
+                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     Amana Assosiation
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
@@ -36,12 +36,12 @@ function Navbar() {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/Amana" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/Amana/aboutus" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/aboutus" className="nav-links" onClick={closeMobileMenu}>
                             About us
                         </Link>
                     </li>
@@ -51,18 +51,20 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/Amana/galeri" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/galeri" className="nav-links" onClick={closeMobileMenu}>
                             Gallery
                         </Link>
+                        <input type="checkbox" id="show-features"/>
+            <label for="show-features">Gallery</label>
                         <div className="submenu">
                             <ul>
                                 
-                                <li><Link to="/Amana/galeri#qu-me" className="nav-links" onClick={closeMobileMenu}>
+                                <li><Link to="/galeri#qu-me" className="nav-links" onClick={closeMobileMenu}>
                                 Iftar Programs
                         </Link></li>
                                 
                                 <li><Link to={{
-    pathname: "/Amana/galeri",
+    pathname: "/galeri",
     search: "",
     hash: "#or-su",
     state: { fromDashboard: true }
@@ -70,7 +72,7 @@ function Navbar() {
                                 Udhiya Programs
                         </Link></li>
                                 
-                                <li><Link to="/Amana/galeri#mo" className="nav-links" onClick={closeMobileMenu}>
+                                <li><Link to="/galeri#mo" className="nav-links" onClick={closeMobileMenu}>
                                 Mosquees
                         </Link></li>
                                 

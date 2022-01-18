@@ -13,9 +13,9 @@ function App() {
         <Navbar />
         
         <Routes>
-        <Route path='/Amana' exact element={<ImageSlider slides={SliderData}/>} />
-        <Route path='/Amana/galeri' element={<Galeri />} />
-        <Route path='/Amana/aboutus' element={<Aboutus />} />
+        <Route path='/' exact element={<ImageSlider slides={SliderData}/>} />
+        <Route path='/galeri' element={<Galeri />} />
+        <Route path='/aboutus' element={<Aboutus />} />
         </Routes>
 
       </HashRouter>

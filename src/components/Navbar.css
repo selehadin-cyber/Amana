@@ -118,8 +118,9 @@
     background: turquoise;
   }
   @media screen and (max-width: 960px) {
-    .NavbarItems {
+    .nav-item {
       position: relative;
+      height: 10%;
     }
   
     .nav-menu {
@@ -143,11 +144,13 @@
       transition: all 0.5s ease;
       z-index: 1;
       pointer-events: auto;
+      top: 35px;
+      padding: 0;
     }
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
+      padding-top: 2rem;
       width: 100%;
       display: table;
       color: white;
