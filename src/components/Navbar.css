@@ -135,7 +135,7 @@
   }
   @media screen and (max-width: 960px) {
     .nav-item {
-      position: relative;
+      position: static;
       height: 10%;
     }
     .desktop-link{
@@ -164,8 +164,9 @@
   }
   nav ul #show-features:checked ~ .submenu{
     max-height: 100vh;
+    position: static;
   }
-  nav ul #show-features:checked ~ ul{
+  nav ul #show-features:checked  .submenu > ul{
     max-height: 100vh;
     
   }
@@ -242,7 +243,7 @@
       text-align: center;
       margin: 2rem auto;
       border-radius: 4px;
-      width: 80%;
+      width: 100%;
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
