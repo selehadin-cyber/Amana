@@ -51,7 +51,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/galeri" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/galeri" className="desktop-link" onClick={closeMobileMenu}>
                             Gallery
                         </Link>
                         <input type="checkbox" id="show-features"/>
@@ -63,12 +63,7 @@ function Navbar() {
                                 Iftar Programs
                         </Link></li>
                                 
-                                <li><Link to={{
-    pathname: "/galeri",
-    search: "",
-    hash: "#or-su",
-    state: { fromDashboard: true }
-  }} className="nav-links" onClick={closeMobileMenu}>
+                                <li><Link to="/galeri/#or-su" className="nav-links" onClick={closeMobileMenu}>
                                 Udhiya Programs
                         </Link></li>
                                 

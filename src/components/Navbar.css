@@ -117,12 +117,66 @@
   nav ul li:hover .submenu ul li:hover{
     background: turquoise;
   }
+  label {
+    display: none;
+  }
+  input {
+    display: none;
+  }
+  .desktop-link {
+    color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 50px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+  }
   @media screen and (max-width: 960px) {
     .nav-item {
       position: relative;
       height: 10%;
     }
-  
+    .desktop-link{
+      display: none;
+    }
+    nav ul label {
+      text-align: center;
+      padding-top: 2rem;
+      width: 100%;
+      display: table;
+      color: white;
+    }
+    nav ul .submenu{
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    background: none;
+    max-height: 0;
+    overflow: hidden;
+  }
+  label {
+    display: initial;
+  }
+  input {
+    visibility: hidden;
+  }
+  nav ul #show-features:checked ~ .submenu{
+    max-height: 100vh;
+  }
+  nav ul #show-features:checked ~ ul{
+    max-height: 100vh;
+    
+  }
+  nav ul ul li{
+    margin: 7px 20px;
+  }
+  nav ul ul li a{
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 5px!important;
+  }
     .nav-menu {
       display: flex;
       flex-direction: column;
