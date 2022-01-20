@@ -147,6 +147,11 @@
       width: 100%;
       display: table;
       color: white;
+      text-decoration: none;
+      padding: 2rem 1rem;
+      height: 50px;
+      font-family: 'Arimo', sans-serif;
+      font-size: 17px;
     }
     nav ul .submenu{
     position: static;
@@ -155,6 +160,7 @@
     background: none;
     max-height: 0;
     overflow: hidden;
+    z-index: 99;
   }
   label {
     display: initial;
@@ -163,8 +169,8 @@
     visibility: hidden;
   }
   nav ul #show-features:checked ~ .submenu{
-    max-height: 100vh;
-    position: static;
+    max-height: fit-content;
+    position: relative;
   }
   nav ul #show-features:checked  .submenu > ul{
     max-height: 100vh;
