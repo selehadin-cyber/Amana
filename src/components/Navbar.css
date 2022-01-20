@@ -171,6 +171,7 @@
   nav ul #show-features:checked ~ .submenu{
     max-height: fit-content;
     position: relative;
+    top: -50px;
   }
   nav ul #show-features:checked  .submenu > ul{
     max-height: 100vh;
