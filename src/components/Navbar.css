@@ -133,6 +133,14 @@
     font-family: 'Arimo', sans-serif;
     font-size: 17px;
   }
+  .sub-links{
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 5px!important;
+    text-decoration: none;
+    margin: auto;
+    color: black;
+  }
   @media screen and (max-width: 960px) {
     .nav-item {
       position: static;
@@ -169,21 +177,26 @@
     visibility: hidden;
   }
   nav ul #show-features:checked ~ .submenu{
-    max-height: fit-content;
+    max-height: 200px;
     position: relative;
     top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   nav ul #show-features:checked  .submenu > ul{
-    max-height: 100vh;
+    max-height: 170px;
+    overflow: scroll;
     
   }
-  nav ul ul li{
-    margin: 7px 20px;
-  }
-  nav ul ul li a{
+  
+  .sub-links{
     font-size: 18px;
-    line-height: 30px;
+    line-height: 15px;
     border-radius: 5px!important;
+    text-decoration: none;
+    margin: auto;
+    color: white;
   }
     .nav-menu {
       display: flex;
@@ -223,7 +236,9 @@
       color: #242424;
       border-radius: 0;
     }
-  
+    .fa-angle-double-down {
+      margin-right: 10px;
+    }
     .navbar-logo {
       height: 100%;
       margin-left: 0px;

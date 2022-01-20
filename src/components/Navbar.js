@@ -55,19 +55,19 @@ function Navbar() {
                             Gallery
                         </Link>
                         <input type="checkbox" id="show-features"/>
-            <label for="show-features">Gallery</label>
+            <label for="show-features">Gallery<i class='fa fa-angle-double-down' /></label>
                         <div className="submenu">
                             <ul>
                                 
-                                <li><Link to="/galeri#qu-me" className="nav-links" onClick={closeMobileMenu}>
+                                <li><Link to="/galeri#qu-me" className="sub-links" onClick={closeMobileMenu}>
                                 Iftar Programs
                         </Link></li>
                                 
-                                <li><Link to="/galeri/#or-su" className="nav-links" onClick={closeMobileMenu}>
+                                <li><Link to="/galeri/#or-su" className="sub-links" onClick={closeMobileMenu}>
                                 Udhiya Programs
                         </Link></li>
                                 
-                                <li><Link to="/galeri#mo" className="nav-links" onClick={closeMobileMenu}>
+                                <li><Link to="/galeri#mo" className="sub-links" onClick={closeMobileMenu}>
                                 Mosquees
                         </Link></li>
                                 

@@ -1,5 +1,6 @@
 import { BrowserRouter as HashRouter, Route, Routes} from "react-router-dom"
 import './App.css';
+import Footer from "./components/Footer";
 import { SliderData } from "./components/ImageData";
 import { ImageSlider } from "./components/ImageSlider";
 import Navbar from './components/Navbar';
@@ -17,7 +18,7 @@ function App() {
         <Route path='/galeri' element={<Galeri />} />
         <Route path='/aboutus' element={<Aboutus />} />
         </Routes>
-
+        <Footer />
       </HashRouter>
     </>
   );
