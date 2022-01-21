@@ -2,7 +2,7 @@ export const SliderData = [
     
     {
       image:
-      require('../pictures/mo3.jpg')
+      require('../pictures/alternate.jpg')
     },
     {
       image:
