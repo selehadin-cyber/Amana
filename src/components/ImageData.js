@@ -6,7 +6,7 @@ export const SliderData = [
     },
     {
       image:
-      require('../pictures/iftar1.JPG')
+      require('../pictures/iftar1.jpg')
     },
     {
       image:
@@ -14,6 +14,6 @@ export const SliderData = [
     },
     {
       image:
-      require('../pictures/mo10.JPG')
+      require('../pictures/mo10.jpg')
     }
   ];
