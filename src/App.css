@@ -1,6 +1,12 @@
 #root {
     overflow-x: hidden;
 }
+a {
+    text-decoration: none;
+}
+.email {
+    color: white;
+}
 .slider   {
     position: relative;
     height: calc(100vh - 0);

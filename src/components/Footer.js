@@ -15,12 +15,12 @@ function Footer() {
           <small class='website-rights'>Amana Association © 2022</small>
           <div class='social-icons'>
             <a
-              class='social-icon-link facebook'
-              href='amaanaassociation12@gmail.com'
+              class='email'
+              href='/'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-google' />
+              amaanaassociation12@gmail.com
             </a>
             
             
