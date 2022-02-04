@@ -45,11 +45,7 @@ function Navbar() {
                             About us
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <Link to="/takim" className="nav-links" onClick={closeMobileMenu}>
-                            Sponsors
-                        </Link>
-                    </li>
+                    
                     <li className="nav-item">
                         <Link to="/galeri" className="desktop-link" onClick={closeMobileMenu}>
                             Gallery
@@ -74,11 +70,7 @@ function Navbar() {
                             </ul>
                         </div>
                     </li>
-                    <li className="nav-item">
-                        <Link to="/duyuru" className="nav-links" onClick={closeMobileMenu}>
-                            Donate
-                        </Link>
-                    </li>
+                    
                     
                 </ul>
                 
